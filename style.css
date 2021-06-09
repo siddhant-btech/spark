@@ -24,15 +24,16 @@ background-size: 100% 100%;
   font-size: 20px;
   width: 25%; 
   text-align: center;
-  opacity:1.0;
+ 
   
 }
 
 .navbar a:hover {
-  background-color: #555;
+  background-color:#555;
   color:rgb(226, 153, 58);
-  font-size: larger;
+  font-size: 25px;
   opacity: 1.0;
+  
   
 }
 
