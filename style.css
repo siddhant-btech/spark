@@ -1,11 +1,19 @@
 
-* {box-sizing: border-box}
-body {font-family: Arial, Helvetica, sans-serif;}
+
+body {font-family: Arial, Helvetica, sans-serif;
+background-image:url('../spark.jpg');
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: 100% 100%;
+  
+}
 .navbar {
   width: 100%;
   background-color:#000;
   overflow: auto;
   position:fixed;
+  opacity: 0.6;
+  
 }
 
 .navbar a {
@@ -16,12 +24,16 @@ body {font-family: Arial, Helvetica, sans-serif;}
   font-size: 20px;
   width: 25%; 
   text-align: center;
+  opacity:1.0;
+  
 }
 
 .navbar a:hover {
   background-color: #555;
   color:rgb(226, 153, 58);
   font-size: larger;
+  opacity: 1.0;
+  
 }
 
 
@@ -41,6 +53,7 @@ body {font-family: Arial, Helvetica, sans-serif;}
     background-color:#000;
     color: white;
     text-align: center;
+    opacity: 0.8;
     
  }
  .class{font-size:20px;
@@ -53,5 +66,5 @@ body {font-family: Arial, Helvetica, sans-serif;}
    
 }
 .class1 a:hover{
-  color:rgb(226, 153, 58)
+  color:rgb(226, 153, 58);
 }
